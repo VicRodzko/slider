@@ -1,0 +1,33 @@
+.VisibleItems > div {
+  display: flex;
+  justify-content: space-around;
+
+  margin: 40px 5%;
+}
+
+.cntSliderFirst {
+  animation: slideinFirst 1s ease;
+}
+
+.cntSliderTwo {
+  animation: slideinTwo 1s ease;
+}
+
+@keyframes slideinFirst {
+  from {
+    margin-left: 150%;
+  }
+  to {
+    width: 90%;
+  }
+}
+
+@keyframes slideinTwo {
+  from {
+    margin-left: 150%;
+  }
+  to {
+    width: 90%;
+  }
+}
+

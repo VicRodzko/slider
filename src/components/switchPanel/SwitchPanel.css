@@ -1,0 +1,32 @@
+.SwitchPanel {
+  display: flex;
+  justify-content: center;
+  
+  width: 100%;
+
+  font-size: 4em;
+}
+
+.SwitchPanel div {
+  margin: 40px;
+  
+  border-radius: 50%;
+  
+  transition: 1s ease;
+}
+
+.SwitchPanel div i,
+.SwitchPanel div p {
+  padding: 8px;
+
+  text-align: center;
+  vertical-align: middle;
+}
+
+.SwitchPanel div:first-child:hover,
+.SwitchPanel div:last-child:hover {
+  background-color: rgb(212, 123, 123);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+  
+  transform: scaleX(1.2);
+}
